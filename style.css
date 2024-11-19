@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lobster", sans-serif;
+    
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.Technovedantncontainer {
+    color: white;
+    width: 550px;
+    padding: 2%;
+
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.heading {
+    color: #fff;
+}
+
+.TechnoVedant-main-greeting {
+    border-radius: 10px;
+}
+
+.decor-container__upper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.decor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.strings {
+    height: 0;
+    width: 0.3rem;
+}
+
+.bulb {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.string1 {
+    height: 100px;
+    background-color: #adeb9c;
+}
+
+.bulb1 {
+    background-color: #adeb9c;
+}
+
+.string2 {
+    transition: all infinite ease-in;
+    height: 180px;
+    background-color: #f1a5c5;
+}
+
+.bulb2 {
+    background-color: #f1a5c5;
+}
+
+.string3 {
+    transition: all infinite ease-in;
+    height: 60px;
+    background-color: #d997dc;
+}
+
+.bulb3 {
+    background-color: #d997dc;
+}
+
+.string4 {
+    transition: all infinite ease-in;
+    height: 150px;
+    background-color: #d4db8a;
+}
+
+.bulb4 {
+    background-color: #d4db8a;
+}
+
+.text-container {
+    text-align: center;
+    color: #fff;
+}
+
+.text-container h2 {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+
+
+/*  */
